@@ -2,9 +2,10 @@
   "name": "wa-auth-api",
   "version": "3.0.0",
   "description": "A Api for otp sending using custom baileys",
-  "main": "api/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node api/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "engines": {
     "node": ">=22"
@@ -26,5 +27,8 @@
     "mongodb": "^6.3.0",
     "pino": "^8.16.2",
     "selfsigned": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
